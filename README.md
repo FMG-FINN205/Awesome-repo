@@ -29,13 +29,16 @@
 
 ## 📑 Mục Lục
 
-- [🤖 AI / LLM Tools & Agents](#-ai--llm-tools--agents)
+- [⚡ Skill Tối Ưu Token & Giao Tiếp](#-skill-tối-ưu-token--giao-tiếp)
+- [🎨 Skill Thiết Kế Giao Diện & UI/UX](#-skill-thiết-kế-giao-diện--uiux)
+- [💻 Skill Lập Trình & Tái Cấu Trúc Code](#-skill-lập-trình--tái-cấu-trúc-code)
+- [🤖 Skill Tự Động Hóa & Multi-Agent](#-skill-tự-động-hóa--multi-agent)
 
 ---
 
-## 🤖 AI / LLM Tools & Agents
+## ⚡ Skill Tối Ưu Token & Giao Tiếp
 
-> Tổng hợp các công cụ, tiện ích mở rộng, framework và giải pháp tối ưu giúp phát triển, tương tác và làm việc hiệu quả với các mô hình AI/LLM và AI Coding Agents.
+> Các skill giúp rút gọn câu trả lời, tiết kiệm chi phí token và tinh chỉnh phong cách phản hồi của AI.
 
 - **[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)**: Công cụ tối ưu hóa chi phí và token cho các AI coding agent (Claude Code, Cursor, Gemini...). Ép AI trả lời theo phong cách "người tiền sử" (ngắn gọn, trực diện, loại bỏ văn phong rườm rà) giúp giảm tới 65% token output mà vẫn đảm bảo 100% chất lượng code.
   - 🏷️ **Tags**: `AI-Agent`, `Token-Optimization`, `CLI`, `Cost-Saving`
@@ -52,3 +55,37 @@
       - `/caveman lite`: Rút gọn vừa phải, giữ tính lịch sự.
       - `/caveman ultra`: Rút gọn tối đa để tiết kiệm token cao nhất.
       - `stop caveman`: Tắt chế độ, trở lại cách phản hồi thông thường.
+
+---
+
+## 🎨 Skill Thiết Kế Giao Diện & UI/UX
+
+> Các skill trang bị tư duy thiết kế, hệ thống design system, màu sắc và typography chuyên nghiệp cho AI.
+
+- **[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)**: Skill cung cấp tri thức thiết kế chuyên sâu của Senior UI/UX Designer cho các AI agent. Tự động tạo Design System hoàn chỉnh (màu sắc, font chữ, layout) chuẩn theo từng ngành, loại bỏ hoàn toàn giao diện "AI generic" xấu xí.
+  - 🏷️ **Tags**: `UI-UX`, `Design-System`, `AI-Skill`, `Frontend`, `Web-Design`
+  - ⭐ **Tính năng chính**:
+    - **Bộ máy suy luận 192 quy tắc**: Nhận diện lĩnh vực dự án để chọn style (Bento grid, Glassmorphism, Minimalist...) và bảng màu chuẩn xác.
+    - **Checklist bàn giao chuẩn**: Đảm bảo tương phản WCAG, responsive đa màn hình, loại bỏ màu neon chói và anti-patterns.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**:
+      ```bash
+      npx skills add nextlevelbuilder/ui-ux-pro-max-skill -g
+      ```
+    - **Sử dụng**: Ra lệnh cho AI tạo giao diện trong chat (ví dụ: *"Thiết kế landing page cho SaaS"*), AI sẽ tự động kích hoạt skill để xây dựng Design System trước khi sinh code.
+
+---
+
+## 💻 Skill Lập Trình & Tái Cấu Trúc Code
+
+> Các skill chuyên sâu nâng cao chất lượng code, refactoring, debug và tối ưu hóa logic phần mềm.
+
+<!-- Repositories -->
+
+---
+
+## 🤖 Skill Tự Động Hóa & Multi-Agent
+
+> Các skill hỗ trợ điều phối đa tác nhân, lập lịch công việc và tự động hóa quy trình làm việc phức tạp.
+
+<!-- Repositories -->
