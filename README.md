@@ -35,6 +35,7 @@
 - [🤖 Skill Tự Động Hóa & Multi-Agent](#-skill-tự-động-hóa--multi-agent)
 - [🎬 Skill Đồ Họa Động & Tạo Video](#-skill-đồ-họa-động--tạo-video)
 - [📐 Skill Thiết Kế 3D, CAD & Phần Cứng](#-skill-thiết-kế-3d-cad--phần-cứng)
+- [🎙️ AI Âm Thanh & Xử Lý Giọng Nói](#️-ai-âm-thanh--xử-lý-giọng-nói)
 
 ---
 
@@ -233,6 +234,21 @@
   - 🛠️ **Cách sử dụng nhanh**:
     - **Cài đặt**: Cài đặt runtime Python và Playwright (`pip install build123d cadgen && python -m playwright install chromium`).
     - **Thực thi**: Yêu cầu thiết kế chi tiết 3D trực tiếp trong chat AI (ví dụ: *"Tạo hộp đựng mạch Raspberry Pi chuẩn ốc M3"*).
+
+---
+
+## 🎙️ AI Âm Thanh & Xử Lý Giọng Nói
+
+> Các công cụ và skill giúp nhân bản giọng nói, lồng tiếng video, đọc chính tả và sản xuất âm thanh chạy cục bộ (Local AI Audio).
+
+- **[debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)**: Bộ công cụ mã nguồn mở nhân bản giọng nói (Voice Cloning) và lồng tiếng video chạy 100% cục bộ (Local AI). Hỗ trợ clone giọng từ audio mẫu, lồng tiếng video đa nhân vật, đọc chính tả và sản xuất sách nói chất lượng phòng thu không phụ thuộc API đám mây.
+  - 🏷️ **Tags**: `Voice-Cloning`, `TTS`, `Video-Dubbing`, `Local-AI`, `Audiobook`, `Audio-Engine`
+  - ⭐ **Tính năng chính**:
+    - **Nhân bản giọng nói siêu tốc**: Clone chính xác chất giọng, cảm xúc từ đoạn âm thanh ngắn chỉ trong vài giây.
+    - **Lồng tiếng video thông minh**: Tự động chuyển lời thành chữ, dịch thuật, chia vai người nói và khớp thời gian video.
+    - **100% Riêng tư & Miễn phí**: Chạy trực tiếp trên phần cứng máy tính cá nhân, tích hợp sẵn Whisper, F5-TTS, CosyVoice.
+  - 🛠️ **Sử dụng**: Tải bản cài đặt tại GitHub Releases hoặc truy cập [voicestudio.sh](https://voicestudio.sh).
+
 
 
 
