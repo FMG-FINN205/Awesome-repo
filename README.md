@@ -83,6 +83,19 @@
     - **Yêu cầu**: Cần cài đặt kèm **Playwright MCP** (để AI có thể mở và xem website).
     - **Thực thi**: Chạy lệnh `/taste <URL>` trong khung chat (ví dụ: `/taste https://linear.app`).
 
+- **[pbakaus/impeccable](https://github.com/pbakaus/impeccable)**: Bộ công cụ chỉ dẫn và kiểm thử thiết kế frontend đỉnh cao cho AI coding agents. Cung cấp 24 lệnh thiết kế chuyên biệt (audit, polish, critique, animate) cùng 61 quy tắc tự động phát hiện và loại bỏ các lỗi thiết kế "AI generic".
+  - 🏷️ **Tags**: `UI-UX`, `Design-System`, `Design-Audit`, `Frontend-Polish`, `AI-Skill`
+  - ⭐ **Tính năng chính**:
+    - **24 lệnh thiết kế mạnh mẽ**: Tinh chỉnh giao diện chuyên sâu (`polish`, `audit`, `critique`, `animate`, `bolder`...).
+    - **61 bộ lọc lỗi cục bộ**: Quét sạch các anti-pattern (card lồng card, màu tím hồng AI, font mặc định).
+    - **Quản lý ngữ cảnh**: Tạo `PRODUCT.md` và `DESIGN.md` giúp AI nắm vững kiến trúc giao diện dài hạn.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**:
+      ```bash
+      npx impeccable install
+      ```
+    - **Thực thi**: Gõ lệnh trực tiếp trong chat AI (ví dụ: `/impeccable init` để khởi tạo, `/impeccable polish` để hoàn thiện giao diện).
+
 ---
 
 ## 💻 Skill Lập Trình & Tái Cấu Trúc Code
