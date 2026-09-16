@@ -56,6 +56,15 @@
       - `/caveman ultra`: Rút gọn tối đa để tiết kiệm token cao nhất.
       - `stop caveman`: Tắt chế độ, trở lại cách phản hồi thông thường.
 
+- **[barkleesanders/claude-hud](https://github.com/barkleesanders/claude-hud)**: Thanh trạng thái HUD trực quan thời gian thực trên terminal cho Claude Code và Codex. Hiển thị % dung lượng context (cảnh báo khi sắp đầy để compact), theo dõi giới hạn rate limit API, tiến độ subagent và trạng thái Git.
+  - 🏷️ **Tags**: `HUD`, `Terminal-UI`, `Context-Health`, `Rate-Limits`, `Claude-Code`, `Codex`
+  - ⭐ **Tính năng chính**:
+    - **Đo lường Context Health**: Thanh màu cảnh báo trực quan lượng token đã dùng để kịp thời compact ngữ cảnh.
+    - **Quản lý Rate Limits**: Theo dõi hạn ngạch API 5h/7 ngày và chi phí tiêu thụ.
+    - **Giám sát Subagent & Tools**: Theo dõi trực tiếp tác vụ ngầm và các file đang được AI chỉnh sửa.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: Build repo và cấu hình `statusLine` trong `~/.claude/settings.json`.
+
 ---
 
 ## 🎨 Skill Thiết Kế Giao Diện & UI/UX
