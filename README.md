@@ -155,6 +155,13 @@
   - 🛠️ **Cách sử dụng nhanh**:
     - **Cài đặt**: `npx skills add nilbuild/page-mascot --skill page-mascot --global --yes`
 
+- **[lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas)**: Công cụ phác thảo UI Material 3 Expressive trên web và tự động dịch bản vẽ thành Prompt kỹ thuật chuẩn xác cho AI coding agents. Hỗ trợ kéo thả component, kết nối luồng màn hình tương tác và xuất prompt sinh mã nguồn cho Android hoặc Web.
+  - 🏷️ **Tags**: `Material-Design`, `M3-Expressive`, `UI-Canvas`, `Design-to-Prompt`, `React`, `UI-UX`
+  - ⭐ **Tính năng chính**:
+    - **Thư viện Material 3 Expressive đầy đủ**: Kéo thả linh hoạt các nút magnetic, adaptive layouts, shape-morphing loaders.
+    - **Tạo Prompt cho AI một chạm**: Tự động chuyển đổi toàn bộ visual layout, màu sắc và hành vi thành câu lệnh tối ưu cho Claude Code, Cursor, Antigravity.
+  - 🛠️ **Sử dụng trực tiếp**: Mở web [lnkiai.github.io/m3e-canvas](https://lnkiai.github.io/m3e-canvas/), thiết kế và sao chép prompt dán vào AI chat.
+
 ---
 
 ## 💻 Skill Lập Trình & Tái Cấu Trúc Code
