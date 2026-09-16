@@ -124,9 +124,21 @@
 
 > Các skill chuyên sâu nâng cao chất lượng code, refactoring, debug và tối ưu hóa logic phần mềm.
 
-<!-- Repositories -->
+- **[m8e/graphify](https://github.com/m8e/graphify)**: Skill biến toàn bộ thư mục code hoặc tài liệu thành Đồ thị tri thức (Knowledge Graph) trực quan. Giúp AI hiểu sâu kiến trúc dự án lớn, giảm 71.5x token mỗi lần truy vấn và xuất ra giao diện web tương tác hoặc Obsidian vault.
+  - 🏷️ **Tags**: `Knowledge-Graph`, `Codebase-Analysis`, `Architecture`, `Token-Saving`, `Obsidian`
+  - ⭐ **Tính năng chính**:
+    - **Dựng đồ thị tri thức**: Tự động phát hiện liên kết giữa các file, module và khái niệm ẩn trong code.
+    - **Tiết kiệm 71.5x Token**: Truy vấn cấu trúc tức thì từ graph có sẵn mà không cần đọc lại toàn bộ file thô.
+    - **Xuất đa nền tảng**: Sinh file `graph.html` tương tác, wiki tài liệu nội bộ và Obsidian vault.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: `pip install graphifyy && graphify install`
+    - **Thực thi**: Chạy lệnh `/graphify .` trong chat AI để quét dự án.
 
 ---
+
+## 🤖 Skill Tự Động Hóa & Multi-Agent
+
+> Các skill hỗ trợ điều phối đa tác nhân, lập lịch công việc và tự động hóa quy trình làm việc phức tạp.
 
 - **[somasays/skill-creator](https://github.com/somasays/skill-creator)**: Meta-Skill giúp AI tự thiết kế, viết và đóng gói các AI Skill mới chuẩn production. Tự động phỏng vấn nhu cầu, tạo file SKILL.md, tài liệu tham khảo và script hỗ trợ theo chuẩn kiến trúc chuyên nghiệp.
   - 🏷️ **Tags**: `Meta-Skill`, `Skill-Builder`, `Workflow`, `Automation`, `Agent-Development`
