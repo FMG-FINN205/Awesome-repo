@@ -107,6 +107,17 @@
       npx skills add https://github.com/delphi-ai/animate-skill --skill animate
       ```
 
+- **[iotron/gsap-cookbook](https://github.com/iotron/gsap-cookbook)**: Tuyển tập 12 skills chuyên sâu giúp AI lập trình animation GSAP chuẩn Awwwards. Bao gồm ScrollTrigger (cuộn parallax, pin section), tương tác chuột 3D (magnetic button, tilt card) và tối ưu GPU 60 FPS cho Next.js, React, Vue.
+  - 🏷️ **Tags**: `GSAP`, `Animation`, `ScrollTrigger`, `Awwwards`, `UI-UX`
+  - ⭐ **Tính năng chính**:
+    - **12 modules hoạt ảnh chuyên sâu**: Bao phủ toàn diện từ ScrollTrigger, SplitText, SVG morphing đến hiệu ứng tương tác chuột.
+    - **Tối ưu chuẩn Production**: Tự động dọn dẹp bộ nhớ (cleanup), chống lỗi SSR và tối ưu render GPU.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**:
+      ```bash
+      npx skills add iotron/gsap-cookbook
+      ```
+
 ---
 
 ## 💻 Skill Lập Trình & Tái Cấu Trúc Code
