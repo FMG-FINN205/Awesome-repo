@@ -33,6 +33,7 @@
 - [🎨 Skill Thiết Kế Giao Diện & UI/UX](#-skill-thiết-kế-giao-diện--uiux)
 - [💻 Skill Lập Trình & Tái Cấu Trúc Code](#-skill-lập-trình--tái-cấu-trúc-code)
 - [🤖 Skill Tự Động Hóa & Multi-Agent](#-skill-tự-động-hóa--multi-agent)
+- [🎬 Skill Đồ Họa Động & Tạo Video](#-skill-đồ-họa-động--tạo-video)
 
 ---
 
@@ -167,4 +168,20 @@
   - 🛠️ **Cách sử dụng nhanh**:
     - **Cài đặt**: Clone vào `~/.claude/skills/find-skill`.
     - **Thực thi**: Gõ lệnh `/find-skill` trong chat AI để tìm công cụ giải quyết vấn đề.
+
+---
+
+## 🎬 Skill Đồ Họa Động & Tạo Video
+
+> Các skill giúp AI lập trình video, motion graphics, hiệu ứng chuyển động và render video tự động từ code (Video as Code).
+
+- **[haidrrrry/claude-remotion-skill](https://github.com/haidrrrry/claude-remotion-skill)**: Biến AI thành Motion Designer chuyên nghiệp lập trình video MP4 từ React và Remotion. Tạo video chính xác 100% về text, màu sắc và timeline, hỗ trợ animation cao cấp (spring, film grain, word-synced captions) và tự soi frame sửa lỗi trước khi xuất video.
+  - 🏷️ **Tags**: `Remotion`, `React-Video`, `Motion-Graphics`, `Video-Editor`, `AI-Skill`
+  - ⭐ **Tính năng chính**:
+    - **Lập trình Video bằng React**: Không bị ảo giác méo hình như AI tạo video pixel, chỉnh sửa code linh hoạt.
+    - **Tự động hóa toàn diện**: Tự dựng cảnh, canh nhịp nhạc, phụ đề tự động và vòng lặp render-tự kiểm tra frame.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: Clone vào `~/.claude/skills/remotion`.
+    - **Thực thi**: Yêu cầu tạo video trực tiếp trong chat AI (ví dụ: *"Tạo video intro 15s chuẩn Reels bằng Remotion"*).
+
 
