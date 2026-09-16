@@ -66,6 +66,15 @@
   - 🛠️ **Cách sử dụng nhanh**:
     - **Cài đặt**: Build repo và cấu hình `statusLine` trong `~/.claude/settings.json`.
 
+- **[tjboudreaux/humanizer](https://github.com/tjboudreaux/humanizer)**: Skill loại bỏ hoàn toàn "mùi AI" khỏi văn bản dựa trên nghiên cứu chống AI của Wikipedia. Nhận diện và thanh lọc 24 mẫu câu sáo rỗng đặc trưng của LLM (thổi phồng tính quan trọng, từ vựng rập khuôn, cấu trúc "không chỉ... mà còn") giúp câu chữ gãy gọn, tự nhiên như người viết.
+  - 🏷️ **Tags**: `Humanizer`, `Writing-Style`, `Prompting`, `Anti-AI-Slop`, `Productivity`
+  - ⭐ **Tính năng chính**:
+    - **Bộ lọc 24 mẫu nhận dạng AI**: Tẩy sạch các thói quen hành văn cố hữu của LLM.
+    - **Văn phong tự nhiên & trực diện**: Thay thế từ ngữ hoa mỹ bằng dữ kiện thực tế, bỏ các câu mở đầu/kết bài rườm rà.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: `npx skills add tjboudreaux/humanizer`
+    - **Thực thi**: Dùng lệnh `/humanizer <đoạn văn>` trong chat AI.
+
 ---
 
 ## 🎨 Skill Thiết Kế Giao Diện & UI/UX
