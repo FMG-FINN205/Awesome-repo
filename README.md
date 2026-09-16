@@ -128,8 +128,12 @@
 
 ---
 
-## 🤖 Skill Tự Động Hóa & Multi-Agent
+- **[somasays/skill-creator](https://github.com/somasays/skill-creator)**: Meta-Skill giúp AI tự thiết kế, viết và đóng gói các AI Skill mới chuẩn production. Tự động phỏng vấn nhu cầu, tạo file SKILL.md, tài liệu tham khảo và script hỗ trợ theo chuẩn kiến trúc chuyên nghiệp.
+  - 🏷️ **Tags**: `Meta-Skill`, `Skill-Builder`, `Workflow`, `Automation`, `Agent-Development`
+  - ⭐ **Tính năng chính**:
+    - **Tự động hóa tạo Skill**: AI tự nghiên cứu và sinh ra bộ skill hoàn chỉnh từ yêu cầu ngôn ngữ tự nhiên của bạn.
+    - **4 mẫu cấu trúc chuẩn**: Hỗ trợ đầy đủ các dạng skill (Workflow, Task-based, Reference, Capabilities).
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: Clone vào thư mục `~/.claude/skills/skill-creator` (hoặc dùng `npx skills add somasays/skill-creator`).
+    - **Thực thi**: Gọi lệnh trong chat AI (ví dụ: `/skill-creator --user "<Tên skill mong muốn>"`).
 
-> Các skill hỗ trợ điều phối đa tác nhân, lập lịch công việc và tự động hóa quy trình làm việc phức tạp.
-
-<!-- Repositories -->
