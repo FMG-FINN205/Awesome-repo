@@ -23,14 +23,18 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="#-mục-lục">📑 Mục Lục</a> •
-  <a href="#-tiêu-chí-tuyển-chọn">🎯 Tiêu Chí</a> •
-  <a href="#-hướng-dẫn--mẫu-thêm-repo">📝 Mẫu Thêm Repo</a> •
-  <a href="#-danh-sách-repositories">⚡ Khám Phá Repos</a> •
-  <a href="https://github.com/FMG-FINN205/Awesome-repo/issues/new">💡 Đề Xuất Repo Mới</a>
-</p>
-
 ---
 
 </div>
+
+## 📑 Mục Lục
+
+- [🤖 AI / LLM Tools & Agents](#-ai--llm-tools--agents)
+
+---
+
+## 🤖 AI / LLM Tools & Agents
+
+> Tổng hợp các công cụ, tiện ích mở rộng, framework và giải pháp tối ưu giúp phát triển, tương tác và làm việc hiệu quả với các mô hình AI/LLM và AI Coding Agents.
+
+<!-- Repositories -->
