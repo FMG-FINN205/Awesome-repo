@@ -34,6 +34,7 @@
 - [💻 Skill Lập Trình & Tái Cấu Trúc Code](#-skill-lập-trình--tái-cấu-trúc-code)
 - [🤖 Skill Tự Động Hóa & Multi-Agent](#-skill-tự-động-hóa--multi-agent)
 - [🎬 Skill Đồ Họa Động & Tạo Video](#-skill-đồ-họa-động--tạo-video)
+- [📐 Skill Thiết Kế 3D, CAD & Phần Cứng](#-skill-thiết-kế-3d-cad--phần-cứng)
 
 ---
 
@@ -217,5 +218,21 @@
   - 🛠️ **Cách sử dụng nhanh**:
     - **Cài đặt**: Clone vào `~/.claude/skills/remotion`.
     - **Thực thi**: Yêu cầu tạo video trực tiếp trong chat AI (ví dụ: *"Tạo video intro 15s chuẩn Reels bằng Remotion"*).
+
+---
+
+## 📐 Skill Thiết Kế 3D, CAD & Phần Cứng
+
+> Các skill giúp AI thiết kế mô hình 3D kỹ thuật, cơ khí chính xác, vỏ hộp linh kiện và xuất file chuẩn in 3D / gia công CNC.
+
+- **[earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad)**: Thư viện AI skills chuyên sâu cho CAD, CAE và CAM. Cho phép AI thiết kế mô hình 3D cơ khí chính xác (vỏ hộp, giá đỡ, bản lề) từ mô tả văn bản, tự động đo đạc dung sai và xuất ra file STEP (chuẩn CAD) hoặc STL/3MF (in 3D).
+  - 🏷️ **Tags**: `CAD`, `3D-Modeling`, `3D-Printing`, `STEP-Export`, `STL`, `Hardware`
+  - ⭐ **Tính năng chính**:
+    - **Mô hình hóa tham số bằng Python**: Sử dụng engine `build123d` tạo chi tiết cơ khí chuẩn xác thay vì vẽ lưới polygon lộn xộn.
+    - **Xuất file chuẩn công nghiệp**: Xuất trực tiếp định dạng STEP cho phần mềm cơ khí, STL cho máy in 3D và URDF cho mô phỏng robot.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: Cài đặt runtime Python và Playwright (`pip install build123d cadgen && python -m playwright install chromium`).
+    - **Thực thi**: Yêu cầu thiết kế chi tiết 3D trực tiếp trong chat AI (ví dụ: *"Tạo hộp đựng mạch Raspberry Pi chuẩn ốc M3"*).
+
 
 
