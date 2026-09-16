@@ -137,6 +137,14 @@
       npx skills add iotron/gsap-cookbook
       ```
 
+- **[nilbuild/page-mascot](https://github.com/nilbuild/page-mascot)**: Skill và component React nhúng linh vật tương tác lên trang web. Linh vật tự động dõi mắt nhìn theo con trỏ chuột và biểu cảm khi click; AI có khả năng tự vẽ 9 hướng nhìn và 9 trạng thái cảm xúc từ mô tả của bạn để chèn thẳng vào code.
+  - 🏷️ **Tags**: `Mascot`, `Interactive-UI`, `Sprite-Animation`, `React`, `UI-UX`
+  - ⭐ **Tính năng chính**:
+    - **Tương tác chuột 360°**: Chuyển động quay đầu theo tọa độ chuột và phản hồi khi người dùng chạm vào.
+    - **AI tự tạo Sprite Sheet**: AI tự sinh toàn bộ frame góc nhìn và biểu cảm, kiểm tra độ mượt chuyển cảnh trước khi gắn vào page.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: `npx skills add nilbuild/page-mascot --skill page-mascot --global --yes`
+
 ---
 
 ## 💻 Skill Lập Trình & Tái Cấu Trúc Code
