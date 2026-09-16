@@ -96,6 +96,17 @@
       ```
     - **Thực thi**: Gõ lệnh trực tiếp trong chat AI (ví dụ: `/impeccable init` để khởi tạo, `/impeccable polish` để hoàn thiện giao diện).
 
+- **[delphi-ai/animate-skill](https://github.com/delphi-ai/animate-skill)**: Skill cung cấp các quy tắc và mẫu animation đỉnh cao cho React/Next.js dựa trên triết lý của Emil Kowalski. Giúp AI tạo ra các hiệu ứng vi mô (micro-interactions), modal, toast và hover mượt mà 60 FPS chuẩn GPU.
+  - 🏷️ **Tags**: `Animation`, `Micro-interactions`, `Framer-Motion`, `React`, `UI-UX`
+  - ⭐ **Tính năng chính**:
+    - **Spring physics & Easing chuẩn**: Áp dụng thời gian và quán tính chuyển động chân thực, không đơ cứng.
+    - **Tối ưu hiệu năng GPU**: Bắt buộc chỉ animate thuộc tính `transform` và `opacity` để tránh drop frame.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**:
+      ```bash
+      npx skills add https://github.com/delphi-ai/animate-skill --skill animate
+      ```
+
 ---
 
 ## 💻 Skill Lập Trình & Tái Cấu Trúc Code
