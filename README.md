@@ -74,6 +74,15 @@
       ```
     - **Sử dụng**: Ra lệnh cho AI tạo giao diện trong chat (ví dụ: *"Thiết kế landing page cho SaaS"*), AI sẽ tự động kích hoạt skill để xây dựng Design System trước khi sinh code.
 
+- **[senlindesign/taste-skill](https://github.com/senlindesign/taste-skill)**: Skill dịch ngược gu thẩm mỹ và triết lý thiết kế (Taste DNA) từ bất kỳ website nào (Linear, Stripe...). Tự động bóc tách quy tắc thị giác và xuất thành file rules cho Cursor, Claude Code, Antigravity để AI code theo chuẩn phong cách mong muốn.
+  - 🏷️ **Tags**: `UI-UX`, `Design-Taste`, `Reverse-Engineering`, `AI-Skill`, `Styling`
+  - ⭐ **Tính năng chính**:
+    - **Trích xuất "Taste DNA"**: Phân tích triết lý thiết kế đằng sau các con số (spacing, border, tương phản màu sắc) thay vì chỉ sao chép CSS thô.
+    - **Tự sinh file Rules**: Tự tạo cấu hình chuẩn cho `.cursor/rules`, `CLAUDE.md`, `GEMINI.md` từ link website được cung cấp.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Yêu cầu**: Cần cài đặt kèm **Playwright MCP** (để AI có thể mở và xem website).
+    - **Thực thi**: Chạy lệnh `/taste <URL>` trong khung chat (ví dụ: `/taste https://linear.app`).
+
 ---
 
 ## 💻 Skill Lập Trình & Tái Cấu Trúc Code
