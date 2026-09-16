@@ -75,6 +75,16 @@
     - **Cài đặt**: `npx skills add tjboudreaux/humanizer`
     - **Thực thi**: Dùng lệnh `/humanizer <đoạn văn>` trong chat AI.
 
+- **[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)**: Cổng AI Gateway mã nguồn mở kết nối 352 nhà cung cấp AI (khai thác ~1.51 tỷ token miễn phí/tháng từ 90+ gói Free Tier). Hỗ trợ Claude Code, Cursor, Antigravity với cơ chế auto-fallback chống nghẽn và tích hợp nén token RTK + Caveman giảm tới ~89% dung lượng.
+  - 🏷️ **Tags**: `AI-Gateway`, `Free-Tokens`, `Token-Optimization`, `Proxy`, `Multi-Provider`
+  - ⭐ **Tính năng chính**:
+    - **Tận dụng 1.51B Free Tokens**: Tự động tổng hợp các dịch vụ AI miễn phí qua một endpoint chuẩn OpenAI duy nhất.
+    - **Auto-fallback 0s**: Tự động nhảy sang nhà cung cấp dự phòng khi chạm rate limit.
+    - **Nén token tích hợp**: Kết hợp thuật toán RTK và Caveman giảm tải chi phí token tối đa.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: `npm install -g omniroute` (hoặc qua Docker).
+    - **Thực thi**: Chạy `omniroute start` và trỏ Base URL của AI Agent về `http://localhost:3000/v1`.
+
 ---
 
 ## 🎨 Skill Thiết Kế Giao Diện & UI/UX
