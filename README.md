@@ -149,3 +149,13 @@
     - **Cài đặt**: Clone vào thư mục `~/.claude/skills/skill-creator` (hoặc dùng `npx skills add somasays/skill-creator`).
     - **Thực thi**: Gọi lệnh trong chat AI (ví dụ: `/skill-creator --user "<Tên skill mong muốn>"`).
 
+- **[Emily27-alt/find-skill](https://github.com/Emily27-alt/find-skill)**: Meta-Skill tự động tìm kiếm và gợi ý các AI Skill phù hợp khi bạn gặp bế tắc trong lập trình. Tự quét kho skill có sẵn trên máy hoặc tìm kiếm skill uy tín trên GitHub và chỉ cài đặt khi được bạn xác nhận.
+  - 🏷️ **Tags**: `Meta-Skill`, `Skill-Discovery`, `Troubleshooting`, `Workflow`, `Claude-Code`
+  - ⭐ **Tính năng chính**:
+    - **Tìm kiếm 2 tầng**: Quét kho skill cục bộ trên máy trước, nếu không có mới tìm kiếm trên GitHub.
+    - **Phân tích bế tắc tự động**: Nhận diện lỗi từ ngữ cảnh trò chuyện để đề xuất đúng công cụ gỡ rối.
+    - **An toàn & Minh bạch**: Cho xem trước nội dung skill và cảnh báo bảo mật trước khi cài.
+  - 🛠️ **Cách sử dụng nhanh**:
+    - **Cài đặt**: Clone vào `~/.claude/skills/find-skill`.
+    - **Thực thi**: Gõ lệnh `/find-skill` trong chat AI để tìm công cụ giải quyết vấn đề.
+
