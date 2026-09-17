@@ -37,6 +37,7 @@
 - [📐 Skill Thiết Kế 3D, CAD & Phần Cứng](#-skill-thiết-kế-3d-cad--phần-cứng)
 - [🎙️ AI Âm Thanh & Xử Lý Giọng Nói](#️-ai-âm-thanh--xử-lý-giọng-nói)
 - [🕹️ Kỹ Thuật Đảo Ngược & Phân Tích Game](#️-kỹ-thuật-đảo-ngược--phân-tích-game)
+- [🎮 Skill Phát Triển Game](#-skill-phát-triển-game)
 
 ---
 
@@ -263,6 +264,20 @@
     - **Hỗ trợ đa nền tảng game**: Xử lý mượt mà cả APK Android (`libil2cpp.so`) lẫn binary iOS.
     - **Xuất script phân tích**: Tự sinh script map tên hàm cho các disassembler hàng đầu (IDA Pro, Ghidra).
   - 🛠️ **Cách sử dụng**: Chạy file GUI trên Windows, nạp file nhị phân của game cùng `global-metadata.dat` để xuất DLLs.
+
+---
+
+## 🎮 Skill Phát Triển Game
+
+> Các skill giúp AI thiết kế, lập trình game 2D/3D trên trình duyệt, vẽ sprite pixel art, tạo âm thanh chiptune và tự động kiểm thử gameplay.
+
+- **[PlayableIntelligence/game-creator](https://github.com/PlayableIntelligence/game-creator)**: Bộ AI skill biến ý tưởng thành game trình duyệt 2D (Phaser) hoặc 3D (Three.js) hoàn chỉnh chỉ trong vài phút. Tự động vẽ sprite pixel art, tạo âm thanh chiptune, có subagent QA tự chơi thử để vá lỗi và hỗ trợ deploy kiếm tiền.
+  - 🏷️ **Tags**: `Game-Development`, `Phaser`, `ThreeJS`, `Pixel-Art`, `Web-Game`, `Playwright-QA`
+  - ⭐ **Tính năng chính**:
+    - **Tạo game trọn gói một lệnh**: Dựng khung kiến trúc chuẩn (EventBus, GameState, Scenes), vẽ đồ họa và chèn nhạc nền tự động.
+    - **Vòng lặp tự test (Automated QA)**: Mở trình duyệt ẩn chơi thử, chụp màn hình và tự fix code nếu phát hiện bug gameplay.
+  - 🛠️ **Cách sử dụng**: Cài đặt bằng `npx skills add playableintelligence/game-creator`, sau đó gõ `/game-creator:viral-game 2d <tên-game>` trong chat AI.
+
 
 
 
