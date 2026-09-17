@@ -36,6 +36,7 @@
 - [🎬 Skill Đồ Họa Động & Tạo Video](#-skill-đồ-họa-động--tạo-video)
 - [📐 Skill Thiết Kế 3D, CAD & Phần Cứng](#-skill-thiết-kế-3d-cad--phần-cứng)
 - [🎙️ AI Âm Thanh & Xử Lý Giọng Nói](#️-ai-âm-thanh--xử-lý-giọng-nói)
+- [🕹️ Kỹ Thuật Đảo Ngược & Phân Tích Game](#️-kỹ-thuật-đảo-ngược--phân-tích-game)
 
 ---
 
@@ -248,6 +249,21 @@
     - **Lồng tiếng video thông minh**: Tự động chuyển lời thành chữ, dịch thuật, chia vai người nói và khớp thời gian video.
     - **100% Riêng tư & Miễn phí**: Chạy trực tiếp trên phần cứng máy tính cá nhân, tích hợp sẵn Whisper, F5-TTS, CosyVoice.
   - 🛠️ **Sử dụng**: Tải bản cài đặt tại GitHub Releases hoặc truy cập [voicestudio.sh](https://voicestudio.sh).
+
+---
+
+## 🕹️ Kỹ Thuật Đảo Ngược & Phân Tích Game
+
+> Các công cụ dịch ngược (Reverse Engineering), bóc tách metadata, phân tích nhị phân và modding cho game, ứng dụng.
+
+- **[dsgaming-mrd/Il2CppDumper-GUI-Fixed](https://github.com/dsgaming-mrd/Il2CppDumper-GUI-Fixed)**: Công cụ giao diện đồ họa (GUI) hỗ trợ trích xuất metadata và khôi phục dummy DLLs từ game Unity biên dịch dạng IL2CPP (Android/iOS). Tự động tạo script hỗ trợ nạp tên hàm và cấu trúc vào IDA Pro, Ghidra.
+  - 🏷️ **Tags**: `Reverse-Engineering`, `Unity`, `IL2CPP`, `Game-Modding`, `IDA-Pro`, `Ghidra`
+  - ⭐ **Tính năng chính**:
+    - **Giao diện trực quan**: Thao tác chọn file và xuất cấu trúc chỉ với vài cú click chuột.
+    - **Hỗ trợ đa nền tảng game**: Xử lý mượt mà cả APK Android (`libil2cpp.so`) lẫn binary iOS.
+    - **Xuất script phân tích**: Tự sinh script map tên hàm cho các disassembler hàng đầu (IDA Pro, Ghidra).
+  - 🛠️ **Cách sử dụng**: Chạy file GUI trên Windows, nạp file nhị phân của game cùng `global-metadata.dat` để xuất DLLs.
+
 
 
 
