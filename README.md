@@ -277,6 +277,14 @@
     - **Tạo game trọn gói một lệnh**: Dựng khung kiến trúc chuẩn (EventBus, GameState, Scenes), vẽ đồ họa và chèn nhạc nền tự động.
     - **Vòng lặp tự test (Automated QA)**: Mở trình duyệt ẩn chơi thử, chụp màn hình và tự fix code nếu phát hiện bug gameplay.
   - 🛠️ **Cách sử dụng**: Cài đặt bằng `npx skills add playableintelligence/game-creator`, sau đó gõ `/game-creator:viral-game 2d <tên-game>` trong chat AI.
+- **[Gamezxz/pixel-art-studio](https://github.com/Gamezxz/pixel-art-studio)**: Skill biến AI thành họa sĩ Pixel Art thực thụ bằng Python/Pillow. Tự vẽ chuẩn xác từng pixel trên lưới (grid-perfect), tự soi frame phê bình sửa lỗi, vẽ animation nhân vật 4 hướng và xuất spritesheet kèm file JSON tương thích Aseprite, Godot, Phaser.
+  - 🏷️ **Tags**: `Pixel-Art`, `Spritesheet`, `Game-Art`, `Game-Development`, `Animation`, `Python-Pillow`
+  - ⭐ **Tính năng chính**:
+    - **Vẽ pixel có tính toán**: Tự đặt từng hạt màu trên lưới tọa độ, loại bỏ hoàn toàn lỗi nhòe viền và méo hình của AI diffusion.
+    - **Tạo Spritesheet game chuyên nghiệp**: Tự làm animation bước đi 4 hướng, idle, bảng màu chuẩn retro (PICO-8, Game Boy).
+    - **Vòng lặp tự thẩm định (Self-critique loop)**: Tự trích xuất hình ảnh, soi lỗi tương phản và bóng đổ để vẽ lại trước khi bàn giao.
+  - 🛠️ **Cách sử dụng**: Cài đặt vào thư mục skill và yêu cầu vẽ sprite trực tiếp trong chat AI (ví dụ: *"Vẽ quái vật rồng 64x64 dạng GIF"*).
+
 
 
 
